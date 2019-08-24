@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>System.Windows.Forms.DataVisualization</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CLSCompliant>false</CLSCompliant>
@@ -17,10 +18,10 @@
 
   <ItemGroup>
     <!-- Versions are defined in eng\Versions.props -->
-    <PackageReference Include="System.Data.SqlClient" Version="$(SystemDataSQLClientPackageVersion)" />
-    <PackageReference Include="System.Drawing.Common" Version="$(SystemDrawingCommonPackageVersion)" />
+    <!--<PackageReference Include="System.Data.SqlClient" Version="$(SystemDataSQLClientPackageVersion)" />-->
+    <!--<PackageReference Include="System.Drawing.Common" Version="$(SystemDrawingCommonPackageVersion)" />
     <PackageReference Include="System.Drawing.Primitives" Version="$(SystemDrawingPrimitivesPackageVersion)" />
-    <PackageReference Include="System.Windows.Extensions" Version="$(SystemWindowsExtensionsPackageVersion)" />
+    <PackageReference Include="System.Windows.Extensions" Version="$(SystemWindowsExtensionsPackageVersion)" />-->
   </ItemGroup>
 
   <ItemGroup Label="Embedded Resources">
