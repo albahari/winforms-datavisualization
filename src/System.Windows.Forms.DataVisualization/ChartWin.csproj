@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyName>System.Windows.Forms.DataVisualization</AssemblyName>
+    <AssemblyName>LINQPad.Windows.Forms.DataVisualization</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CLSCompliant>false</CLSCompliant>
     <NoWarn>$(NoWarn);618</NoWarn>
